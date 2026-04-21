@@ -1,12 +1,12 @@
 ---
-name: "ap"
-displayName: "AP"
+name: "accounts-payable"
+displayName: "Accounts Payable"
 description: ""
 keywords: []
 author: "Decabase"
 ---
 
-# AP
+# Accounts Payable
 
 ## MCP Servers
 
@@ -29,11 +29,11 @@ author: "Decabase"
 
 ### Standalone
 
-- **ABAP Language Quick Reference** (`abap-language`) — Use a concise ABAP language reference covering data types, ABAP SQL, OO, and release compatibility.
-
 - **ABAP Naming Conventions** (`abap-naming-conventions`) — Apply the tenant's ABAP namespace prefix and object-naming conventions to every generated artefact.
 
 - **Curated ABAP Samples** (`abap-samples`) — Adapt curated, release-tagged ABAP samples for RAP, CDS, unit testing, and ABAP Cloud.
+
+- **ABAP Workflows** (`abap-workflows`) — Follow day-to-day ABAP workflows: read/write objects, transports, unit testing, profiling, deploys.
 
 - **RAP Flight Reference Scenario** (`rap-flight-reference`) — Look up the SAP Flight Reference Scenario for the project's ABAP release (scenarios, key objects, fetch URLs).
 
