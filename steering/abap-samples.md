@@ -1,3 +1,9 @@
+---
+inclusion: manual
+name: abap-samples
+description: "Curated code samples with version frontmatter: RAP/EML, CDS view entities, unit testing, ABAP Cloud development, plus an index of additional reference topics."
+---
+
 # ABAP Code Samples
 
 Curated code samples organized by topic. Each section includes a version tag indicating the minimum SAP_BASIS release required. Cross-reference with `system-info.md` in your mirror folder to confirm compatibility before using.

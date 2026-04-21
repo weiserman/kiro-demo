@@ -1,12 +1,16 @@
 ---
 name: "accounts-payable"
 displayName: "Accounts Payable"
-description: ""
-keywords: []
+description: "SAP ABAP development power — hands-on access to an SAP system via MCP servers, curated steering docs for RAP, Clean Core, ABAPGit, and day-to-day ABAP workflows."
+keywords: ["ABAP", "RAP", "SAP", "Clean Core", "CDS", "Fiori", "BTP", "S/4HANA", "ADT", "ABAPGit"]
 author: "Decabase"
 ---
 
 # Accounts Payable
+
+## When to Use This Power
+
+Activate this power when working on SAP ABAP development — building RAP business objects, CDS view entities, Fiori Elements apps, or maintaining classic ABAP code. It connects Kiro to your SAP system and provides context-aware guidance for Clean Core compliance, naming conventions, and ABAP best practices.
 
 ## MCP Servers
 
@@ -32,8 +36,6 @@ author: "Decabase"
 - **ABAP Naming Conventions** (`abap-naming-conventions`) — Apply the tenant's ABAP namespace prefix and object-naming conventions to every generated artefact.
 
 - **Curated ABAP Samples** (`abap-samples`) — Adapt curated, release-tagged ABAP samples for RAP, CDS, unit testing, and ABAP Cloud.
-
-- **ABAP Workflows** (`abap-workflows`) — Follow day-to-day ABAP workflows: read/write objects, transports, unit testing, profiling, deploys.
 
 - **RAP Flight Reference Scenario** (`rap-flight-reference`) — Look up the SAP Flight Reference Scenario for the project's ABAP release (scenarios, key objects, fetch URLs).
 

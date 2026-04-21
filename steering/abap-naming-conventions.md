@@ -1,3 +1,9 @@
+---
+inclusion: auto
+name: abap-naming-conventions
+description: "Tenant-scoped ABAP/RAP naming conventions — namespace prefix and the object pattern catalogue, generated from tenant Settings."
+---
+
 # ABAP Naming Conventions
 
 This project uses the **`Z`** namespace for all custom ABAP

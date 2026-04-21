@@ -1,3 +1,9 @@
+---
+inclusion: manual
+name: abap-adt-a4h-install
+description: "Step-by-step installation of the abap-adt-a4h MCP server on Windows and macOS — prerequisites, BTP vs on-prem credentials, Kiro config, verification, troubleshooting."
+---
+
 # Installing the ABAP ADT MCP Server
 
 This guide walks you through installing `mcp-abap-adt` on **Windows** or **macOS**. The server supports two authentication modes:
@@ -118,16 +124,16 @@ mcp-abap-adt --help
    SAP_SYSTEM_TYPE=onprem
    SAP_LANGUAGE=EN
    TLS_REJECT_UNAUTHORIZED=0
-   SAP_MASTER_SYSTEM=S4H
-   '@ | Set-Content -Path "C:\sap\service-keys\S4H.env" -Encoding ascii
+   SAP_MASTER_SYSTEM=AC1
+   '@ | Set-Content -Path "C:\sap\service-keys\AC1.env" -Encoding ascii
    ```
 
-   **Alternative (manual):** open `C:\sap\service-keys` in Explorer, create a new file named `S4H.env` (make sure it's not `S4H.env.txt`), and paste the template from the reference section below.
+   **Alternative (manual):** open `C:\sap\service-keys` in Explorer, create a new file named `AC1.env` (make sure it's not `AC1.env.txt`), and paste the template from the reference section below.
 
 3. **Quick smoke test (optional):**
 
    ```powershell
-   mcp-abap-adt --transport=http --http-port=3000 --env=S4H
+   mcp-abap-adt --transport=http --http-port=3000 --env=AC1
    ```
 
    You should see the server start and listen on port 3000. Press `Ctrl+C` to stop.
@@ -161,7 +167,7 @@ Create or edit `.kiro/settings/mcp.json` (workspace level) or `~/.kiro/settings/
     "abap-adt-a4h": {
       "command": "mcp-abap-adt",
       "args": [
-        "--env-path=C:\\sap\\service-keys\\S4H.env"
+        "--env-path=C:\\sap\\service-keys\\AC1.env"
       ]
     }
   }
@@ -264,7 +270,7 @@ mcp-abap-adt --help | head
 2. **Create the `.env` file:**
 
    ```bash
-   cat > ~/.config/mcp-abap-adt/sessions/S4H.env <<'EOF'
+   cat > ~/.config/mcp-abap-adt/sessions/AC1.env <<'EOF'
    SAP_URL=https://vhcala4hci:50001
    SAP_CLIENT=001
    SAP_USERNAME=DEVELOPER
@@ -273,15 +279,15 @@ mcp-abap-adt --help | head
    SAP_SYSTEM_TYPE=onprem
    SAP_LANGUAGE=EN
    TLS_REJECT_UNAUTHORIZED=0
-   SAP_MASTER_SYSTEM=S4H
+   SAP_MASTER_SYSTEM=AC1
    EOF
-   chmod 600 ~/.config/mcp-abap-adt/sessions/S4H.env
+   chmod 600 ~/.config/mcp-abap-adt/sessions/AC1.env
    ```
 
 3. **Smoke test (optional):**
 
    ```bash
-   mcp-abap-adt --transport=http --http-port=3000 --env=S4H
+   mcp-abap-adt --transport=http --http-port=3000 --env=AC1
    ```
 
    In another terminal:
@@ -317,7 +323,7 @@ Edit `~/.kiro/settings/mcp.json` (user level) or `.kiro/settings/mcp.json` in yo
   "mcpServers": {
     "abap-adt-a4h": {
       "command": "mcp-abap-adt",
-      "args": ["--env=S4H"]
+      "args": ["--env=AC1"]
     }
   }
 }

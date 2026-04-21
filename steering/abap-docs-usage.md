@@ -1,3 +1,9 @@
+---
+inclusion: auto
+name: abap-docs-usage
+description: "How to use the abap-docs MCP server — free hosted endpoint for ABAP/RAP documentation search, ABAP feature matrix, SAP Community lookup, local linting."
+---
+
 # Using the ABAP Docs MCP Server
 
 This server is your **ABAP knowledge base** — it searches offline ABAP/RAP documentation, SAP Help content, SAP Community posts, and Software Heroes articles, plus exposes an ABAP feature-matrix lookup and local ABAP linting. Use it whenever you need authoritative ABAP / CDS / RAP reference material or community examples.

@@ -3,7 +3,7 @@
     "abap-adt-a4h": {
       "command": "mcp-abap-adt",
       "args": [
-        "--mcp=S4H"
+        "--mcp=AC1"
       ],
       "autoApprove": [
         "GetSession",

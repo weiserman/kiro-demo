@@ -1,3 +1,9 @@
+---
+inclusion: manual
+name: rap-flight-reference
+description: "SAP Flight Reference Scenario lookup: scenario selection guide, version-to-branch mapping, key objects per scenario, fetch URLs, and installation instructions."
+---
+
 # RAP Flight Reference Scenarios
 
 The SAP ABAP Flight Reference Scenario is the official best-practice reference for RAP (RESTful Application Programming Model) development. It provides complete, production-quality implementations of every major RAP pattern — from read-only reporting to managed transactional apps with draft, extensibility, and tree views.
