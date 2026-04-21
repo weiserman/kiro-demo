@@ -27,15 +27,15 @@ that treat the namespace as authoritative.
 ## Development Package
 
 All newly created ABAP objects in this project must be assigned to the
-development package **`Z009`**.
+development package **`Z001`**.
 
 - Classes, CDS views, behavior definitions, service definitions, tables,
-  message classes — every new TADIR object goes into `Z009`
+  message classes — every new TADIR object goes into `Z001`
   unless the user explicitly picks a sub-package.
 - When creating objects through the ABAP ADT MCP server, pass
-  `Z009` as the `packageName` parameter.
+  `Z001` as the `packageName` parameter.
 - If a sub-package is needed (e.g. for test artefacts), create it *under*
-  `Z009` rather than under `$TMP` or a foreign package.
+  `Z001` rather than under `$TMP` or a foreign package.
 
 ## Object Naming Patterns
 
