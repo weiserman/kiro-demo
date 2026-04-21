@@ -102,6 +102,19 @@
         "GetCdsUnitTestResult"
       ]
     },
+    "sap-released-objects": {
+      "type": "url",
+      "url": "https://sap-released-objects-server-production.up.railway.app/mcp",
+      "autoApprove": [
+        "sap_search_objects",
+        "sap_get_object_details",
+        "sap_find_successor",
+        "sap_check_clean_core_compliance",
+        "sap_list_object_types",
+        "sap_get_statistics",
+        "sap_list_versions"
+      ]
+    },
     "abap-docs": {
       "type": "url",
       "url": "https://mcp-abap.marianzeis.de/mcp",

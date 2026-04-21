@@ -16,6 +16,8 @@ Activate this power when working on SAP ABAP development — building RAP busine
 
 - **ABAP ADT (A4H)** ([source](https://github.com/fr0ster/mcp-abap-adt)) — ABAP ADT server — hands-on access to an SAP system. Read / write / update ABAP classes, programs, CDS views, tables, function modules, behavior definitions, service bindings; run unit tests, manage transports, profile code, inspect dumps. 100+ tools.
 
+- **SAP Released Objects** — SAP Released Objects — compliance checker backed by the SAP Cloudification Repository. Search released APIs, check Clean Core compliance levels (A/B/C/D), find released successors for deprecated objects, plan ABAP Cloud migrations.
+
 - **ABAP Docs & Lint** — ABAP Docs — free public hosted search across offline ABAP/RAP docs, SAP Community, SAP Help. Includes ABAP feature-matrix lookup and local ABAP lint. No credentials required.
 
 
@@ -24,6 +26,11 @@ Activate this power when working on SAP ABAP development — building RAP busine
 ### ABAP ADT (A4H)
 
 - **ABAP ADT Install** (`abap-adt-a4h-install`) — Connect Kiro to an SAP system via the ABAP ADT MCP server (install + credentials setup).
+
+
+### SAP Released Objects
+
+- **SAP Released Objects Usage** (`sap-released-objects-usage`) — Query released SAP APIs and find Clean Core successors.
 
 
 ### ABAP Docs & Lint
